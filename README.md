@@ -1,19 +1,23 @@
-# 💫 About Me:
-Я человек<br>Я существую<br>Я хочу пиццы
+# Дневник тренировок
 
+Цель проекта: Разработать MVP трекера спортивных занятий, чтобы заменить хаос в заметках смартфона на четкую систему фиксации подходов, весов и анализа прогресса.
 
-## 🌐 Socials:
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vahildar01@gmail.com) 
+## Модуль 1. Справочник упражнений (Exercise Catalog Module)
 
-# 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Ilidarr&theme=radical&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Ilidarr&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Ilidarr&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+*   Функционал: Хранение списка упражнений, группировка по мышечным группам (грудь, спина, ноги и т.д.), добавление кастомных упражнений пользователя.
+*   Файлы: Exercise / CatalogService
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
+## Модуль 2. Журнал тренировочной сессии (Workout Session Module)
 
----
-[![](https://komarev.com/ghpvc/?username=Ilidarr&icon=5&color=0)](https://visitcount.itsvg.in)
+*   Функционал: Создание новой тренировки (дата, название). Фиксация сетов внутри упражнения: порядковый номер подхода, рабочий вес, количество повторений.
+*   Файлы: Workout / SetEntry
+
+## Модуль 3. Анализ прогресса и Рекордов (Progress Tracker Module)
+
+*   Функционал: Поиск личного рекорда (максимальный вес в конкретном упражнении), расчет суммарного тоннажа (общий поднятый вес за тренировку), отслеживание роста рабочих весов от даты к дате.
+*   Файлы: ProgressAnalytics
+
+## Модуль 4. Профиль пользователя и Сохранение данных (User & Persistence Module)
+
+*   Функционал: Хранение текущих параметров атлета (вес, цель) и сериализация всей истории тренировок в локальное хранилище.
+*   Файлы: UserProfile / WorkoutStorage
