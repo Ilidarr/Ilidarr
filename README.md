@@ -21,4 +21,5 @@
 
 *   Функционал: Хранение текущих параметров атлета (вес, цель) и сериализация всей истории тренировок в локальное хранилище.
 *   Файлы: UserProfile / WorkoutStorage
-*   [Ссылка на Канбан](https://github.com/users/Ilidarr/projects/1/views/1?template_dialog_tab=featured&layout_template=board)
+  
+   [Ссылка на Канбан](https://github.com/users/Ilidarr/projects/1/views/1?template_dialog_tab=featured&layout_template=board)
